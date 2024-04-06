@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div id="calendar-container">
+    <header>
+        <h2 id="calendarMonthYear"></h2>
+        <!-- You can add buttons for navigation here, if required -->
+    </header>
+    <table id="calendar-table">
+        <thead>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+        </thead>
+        <tbody id="calendarDays">
+            <!-- Calendar days will be inserted here by the calendar.js script -->
+        </tbody>
+    </table>
+</div>
+{% endblock %}
